@@ -32,7 +32,7 @@ for x in (obj_emp,obj_adm):
     x.info()
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/b41a3e12-896b-4f6c-a9b2-19045a5088f9)
+![image](https://github.com/23013357/19CS301-Module-6/blob/main/zz.png)
 
 
 ### RESULT: Thus, the program has been successfully executed.
@@ -78,23 +78,40 @@ Step2:put class function to define the function using self
 Step3:By using the function to find the area of the rectangle and circle Step4:Execute the program.
 
 ### PROGRAM:
-```from abc import ABC
-class Shape(ABC):
-            def calculate_area(self):
-                Pass
+```
+from abc import ABC
+class Shape(ABC): 
+    def calculate_area(self):
+        pass
+
 class Rectangle(Shape):
-               length = 5
-               breadth =3
-               def calculate_area(self):
-                   print("Area of a rectangle:",self.length * self.breadth)
+  length = 6
+  breadth = 4
+  def calculate_area(self):
+    return self.length * self.breadth
+
 class Circle(Shape):
-             radius = 4
-             def calculate_area(self):
-                     print("Area of a circle:",3.14 * self.radius * self.radius)
-a=Rectangle()
-b=Circle()
-a.calculate_area()
-b.calculate_area()
+  radius = 7
+  def calculate_area(self):
+      return 3.14 * self.radius * self.radius
+
+class Square(Shape):
+  length = 4
+  def calculate_area(self):
+        return self.length * self.length
+class triangle(Shape):
+  length = 5
+  width = 4
+  def calculate_area(self):
+      return 1/2 * self.length * self.width
+r = Rectangle() 
+c = Circle()
+s = Square() 
+t = triangle() 
+print("Area of a rectangle:", r.calculate_area()) 
+print("Area of a circle:", c.calculate_area()) 
+print("Area of a square:", s.calculate_area())
+print("Area of a triangle:", t.calculate_area())
 ```
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/a4c70e22-b3e0-417a-86d7-41f547c9d60d)
