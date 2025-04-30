@@ -120,19 +120,43 @@ print("Area of a triangle:", t.calculate_area())
 ### RESULT: Thus, the program has been successfully executed.
 
 EXP.No: 6.4     ENCAPSULATION
-### AIM: To Implement Encapsulation using private members –of a class rectangle with private variables length,width.
-###ALGORITHM: Step1: put class function to define the function using self Step2: By using the function to find the area of the rectangle Step3: Execute the program.
+### AIM: To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun() and   obj._ABC__a concepts to access the private variables in ABC class. 
+###ALGORITHM: Start the program.
+
+1.Define a class ABC.
+
+2.In the __init__() constructor:
+
+3.Declare a private instance variable __a and assign it the value 5.
+
+4.Define a public method fun() that prints "I am public class method".
+
+5.Define another method fun1():
+
+6.Print "I am private class method".
+
+7.Access and print the private variable __a.
+
+8.Create an object x of class ABC.
+
+9.Call the method x.fun() to execute the public method.
+
+10.Call the method x.fun1() to execute the method that accesses the private variable.
+
+11.End the program
 ###PROGRAM:
 ```
-class Rectangle:
- 	length = 0
- 	breadth = 0
-  def	init	(self):
-       self.	length = 5
-       self.	breadth = 3
-  print(self.	length)
-  print(self.	breadth)
-rect = Rectangle()
+class ABC:
+   def __init__(self):
+       self.__a=5
+   def fun(self):
+       print("I am public class method")
+   def fun1(self):
+       print("I am private class method")
+       print(self.__a)
+x=ABC()
+x.fun()
+x.fun1()
 ```
 ### OUTPUT:
  
