@@ -1,37 +1,35 @@
 # 19CS301-Module-6
 EX: 6.1   POLYMORPHISM
 
-### AIM: To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
+### AIM: To Create two classes Employee and Admin. These two different classes have the same method name info(). This method contains information(name, department) about employee in Employee class and admin in Admin class.after initializing classes, Create two objects for respective classes. Then the method info() is called. Once by the object of Employee class and once by the object of Admin class.
 
 
 ### ALGORITHM:
 Step1: create class Beans and def a function type and color
 
-Step 2: create a class Mango and def a function type and color
+Step 2: create a class employee and admin
 
-Step3: def a function func
+Step3: def a function info
 
 Step 4: call the objects and execute the program
 
 ### PROGRAM:
 ```
-class Beans ():
-    def type(self):   
-          print("Vegetable")
-    def color(self):
-          print("Green")
-class Mango:
-   def type(self):
-          print("Fruit")
-   def color(self):
-         print("Yellow")
-   def func(obj):
-         obj.type()
-         obj.color()
-         obj_beans = Beans()
-         obj_mango = Mango()
-         func(obj_beans)
-         func(obj_mango)
+class Employee:
+    def info(self):
+        #Add your code Here
+        print('Rooney from Electronics')
+
+class Admin:
+    def info(self):
+        #Add your code here
+        print('Kalesh from CS')
+        
+        
+obj_emp = Employee()
+obj_adm = Admin()
+for x in (obj_emp,obj_adm):
+    x.info()
 ```
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/b41a3e12-896b-4f6c-a9b2-19045a5088f9)
