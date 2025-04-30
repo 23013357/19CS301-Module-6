@@ -114,7 +114,7 @@ print("Area of a square:", s.calculate_area())
 print("Area of a triangle:", t.calculate_area())
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/a4c70e22-b3e0-417a-86d7-41f547c9d60d)
+![image](https://github.com/23013357/19CS301-Module-6/blob/main/xx.png)
 
 
 ### RESULT: Thus, the program has been successfully executed.
