@@ -1,7 +1,8 @@
 # 19CS301-Module-6
 EX: 6.1   POLYMORPHISM
 
-### AIM: To Create two classes Employee and Admin. These two different classes have the same method name info(). This method contains information(name, department) about employee in Employee class and admin in Admin class.after initializing classes, Create two objects for respective classes. Then the method info() is called. Once by the object of Employee class and once by the object of Admin class.
+### AIM:
+To Create two classes Employee and Admin. These two different classes have the same method name info(). This method contains information(name, department) about employee in Employee class and admin in Admin class.after initializing classes, Create two objects for respective classes. Then the method info() is called. Once by the object of Employee class and once by the object of Admin class.
 
 
 ### ALGORITHM:
@@ -61,11 +62,13 @@ ob2 = A(3)
 print(ob1<ob2)
 ```
 ###OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/dae03d17-1004-424e-a179-ef62fd2681bd)
 
 
 
 ###RESULT: Thus, the program has been successfully executed.
+
 EX: 6.3 ABSTRACT CLASS METHOD
 
 ### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
