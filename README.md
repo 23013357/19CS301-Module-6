@@ -127,7 +127,8 @@ print("Area of a triangle:", t.calculate_area())
 EXP.No: 6.4     ENCAPSULATION
 ### AIM: 
 To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun() and   obj._ABC__a concepts to access the private variables in ABC class. 
-###ALGORITHM: Start the program.
+### ALGORITHM: 
+Start the program.
 
 1.Define a class ABC.
 
@@ -149,8 +150,8 @@ To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun
 
 10.Call the method x.fun1() to execute the method that accesses the private variable.
 
-11.End the program
-###PROGRAM:
+End the program
+### PROGRAM:
 ```
 class ABC:
    def __init__(self):
