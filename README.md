@@ -169,66 +169,51 @@ x.fun1()
 EXP.No: 6.e ENCAPSULATION-PRIVATE MEMBERS
 
 ### AIM:
-Create a Class  Student with the private members name and age ,Add getter and setter to initialize the age variable.
+Create a class Employee with public method show to display the details of the employee.
 
 
 ### ALGORITHM:
 
 Start
 
-Define a class Student with:
+Initialize the Employee Object:
 
-An initializer __init__ that takes name and age as parameters.
+m = Employee() creates an instance of the Employee class.
 
-Store name as a public attribute.
+The constructor sets __price to 10000.
 
-Store age as a private attribute using self.__age.
+Display Salary (Initial Value):
 
-Define a getter method get_age() to return the value of __age.
+Call m.sell() which prints Name: Jessa Salary: 10000.
 
-Define a setter method set_age(age) to update the value of __age.
+Update Salary:
 
-Create an instance of Student with name 'Jessa' and age 14.
+Call m.set(10000) to set the salary to 10000.
 
-Use the get_age() method to retrieve and print the age.
+Display Salary (Updated Value):
 
-Use the set_age(16) method to update the age to 16.
-
-Again use get_age() to retrieve and print the updated age.
+Call m.sell() again, which prints the updated salary, which is still 10000.
 
 End
 
 ### PROGRAM:
 ```
-class Student:
-    def __init__(self, name, age):
-        # private member
-        self.name = name
-        self.__age = age
+class Employee:
+    def __init__(self):
+        self.__price=10000
+    def sell(self):
+        print(f"Name:  Jessa Salary: {self.__price}")
+    def set(self,x):
+        self.__price=x
+m=Employee()
+m.sell()
+m.set(10000)
+m.sell()
 
-    # getter method
-    def get_age(self):
-        return self.__age
-
-    # setter method
-    def set_age(self, age):
-        self.__age = age
-
-# creating object
-stud = Student('Jessa', 14)
-
-# retrieving age using getter
-print('Name:', stud.name, 'Age:', stud.get_age())
-
-# changing age using setter
-stud.set_age(16)
-
-# retrieving age again using getter
-print('Name:', stud.name, 'Age:', stud.get_age())
 
 ```
 ### OUTPUT:
-![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/M6%20IMAGE.png)
+![image](https://github.com/23013357/19CS301-Module-6/blob/main/modul%206.png)
 
 
 ### RESULT: 
