@@ -40,7 +40,8 @@ for x in (obj_emp,obj_adm):
 
 EXP.No: 6.b OPERATOR OVERLOADING
 
-### AIM: write a python program to overload less than operator
+### AIM: 
+write a python program to overload less than operator
 ### ALGORITHM:
 Step1 :create class A and def init	 
 
@@ -71,7 +72,8 @@ print(ob1<ob2)
 
 EX: 6.3 ABSTRACT CLASS METHOD
 
-### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
+### AIM:
+To Create the abstract method calculate_area which is of the abstract class 'Shape'
 
 ### ALGORITHM:
 Step1:Get input from the user
@@ -123,7 +125,8 @@ print("Area of a triangle:", t.calculate_area())
 ### RESULT: Thus, the program has been successfully executed.
 
 EXP.No: 6.4     ENCAPSULATION
-### AIM: To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun() and   obj._ABC__a concepts to access the private variables in ABC class. 
+### AIM: 
+To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun() and   obj._ABC__a concepts to access the private variables in ABC class. 
 ###ALGORITHM: Start the program.
 
 1.Define a class ABC.
