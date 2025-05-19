@@ -41,7 +41,7 @@ for x in (obj_emp,obj_adm):
 EXP.No: 6.b OPERATOR OVERLOADING
 
 ### AIM: write a python program to overload less than operator
-###ALGORITHM:
+### ALGORITHM:
 Step1 :create class A and def init	 
 
 Step2: def it	with a condition if self.a < o.a 
@@ -61,13 +61,13 @@ ob1 = A(2)
 ob2 = A(3)
 print(ob1<ob2)
 ```
-###OUTPUT:
+### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/dae03d17-1004-424e-a179-ef62fd2681bd)
 
 
 
-###RESULT: Thus, the program has been successfully executed.
+### RESULT: Thus, the program has been successfully executed.
 
 EX: 6.3 ABSTRACT CLASS METHOD
 
