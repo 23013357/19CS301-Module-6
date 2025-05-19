@@ -173,7 +173,7 @@ x.fun1()
 
 ### RESULT: Thus, the program has been successfully executed
 
-EXP.No: 6.e ENCAPSULATION-PRIVATE MEMBERS
+EXP.No: 6.e ENCAPSULATION-PUBLIC MEMBERS
 
 ### AIM:
 Create a class Employee with public method show to display the details of the employee.
