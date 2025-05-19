@@ -166,6 +166,73 @@ x.fun1()
 
 ### RESULT: Thus, the program has been successfully executed
 
+EXP.No: 6.e ENCAPSULATION-PRIVATE MEMBERS
+
+### AIM:
+Create a Class  Student with the private members name and age ,Add getter and setter to initialize the age variable.
+
+
+### ALGORITHM:
+
+Start
+
+Define a class Student with:
+
+An initializer __init__ that takes name and age as parameters.
+
+Store name as a public attribute.
+
+Store age as a private attribute using self.__age.
+
+Define a getter method get_age() to return the value of __age.
+
+Define a setter method set_age(age) to update the value of __age.
+
+Create an instance of Student with name 'Jessa' and age 14.
+
+Use the get_age() method to retrieve and print the age.
+
+Use the set_age(16) method to update the age to 16.
+
+Again use get_age() to retrieve and print the updated age.
+
+End
+
+### PROGRAM:
+```
+class Student:
+    def __init__(self, name, age):
+        # private member
+        self.name = name
+        self.__age = age
+
+    # getter method
+    def get_age(self):
+        return self.__age
+
+    # setter method
+    def set_age(self, age):
+        self.__age = age
+
+# creating object
+stud = Student('Jessa', 14)
+
+# retrieving age using getter
+print('Name:', stud.name, 'Age:', stud.get_age())
+
+# changing age using setter
+stud.set_age(16)
+
+# retrieving age again using getter
+print('Name:', stud.name, 'Age:', stud.get_age())
+
+```
+### OUTPUT:
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/M6%20IMAGE.png)
+
+
+### RESULT: 
+Thus, the program has been successfully executed.
 
 
 
