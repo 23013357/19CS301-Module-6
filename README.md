@@ -1,5 +1,5 @@
 # 19CS301-Module-6
-EX: 6.1   POLYMORPHISM
+EX: 6a   POLYMORPHISM
 
 ### AIM:
 To Create two classes Employee and Admin. These two different classes have the same method name info(). This method contains information(name, department) about employee in Employee class and admin in Admin class.after initializing classes, Create two objects for respective classes. Then the method info() is called. Once by the object of Employee class and once by the object of Admin class.
@@ -70,7 +70,7 @@ print(ob1<ob2)
 
 ### RESULT: Thus, the program has been successfully executed.
 
-EX: 6.3 ABSTRACT CLASS METHOD
+EX: 6c ABSTRACT CLASS METHOD
 
 ### AIM:
 To Create the abstract method calculate_area which is of the abstract class 'Shape'
@@ -124,7 +124,7 @@ print("Area of a triangle:", t.calculate_area())
 
 ### RESULT: Thus, the program has been successfully executed.
 
-EXP.No: 6.4     ENCAPSULATION
+EXP.No: 6d    ENCAPSULATION
 ### AIM: 
 To Implement Encapsulation using private members Use Name Mangling obj._ABC__fun() and   obj._ABC__a concepts to access the private variables in ABC class. 
 ### ALGORITHM: 
@@ -173,7 +173,7 @@ x.fun1()
 
 ### RESULT: Thus, the program has been successfully executed
 
-EXP.No: 6.e ENCAPSULATION-PUBLIC MEMBERS
+EXP.No: 6e ENCAPSULATION-PUBLIC MEMBERS
 
 ### AIM:
 Create a class Employee with public method show to display the details of the employee.
